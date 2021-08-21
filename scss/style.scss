@@ -3,12 +3,40 @@
 @import "mixins";
 
 .container_background{
+    margin-top: 25px;
     width: 100%;
-    height: 600px;
+    text-align: center;
+    
+    
+}
+
+body{
+    font-family:muli, sans-serif;
+    font-weight: 800;
+    color:$cool-morado;
     background-color:$cool-background;
 }
 
-h1{
-    font-family: $cool-font;
+.nav-item{
+    padding:0px 15px;
+    a{
     color:$cool-morado;
+}
+}
+
+h1{
+
+    font-family: $cool-font;
+    font-weight: 900;
+    font-style: italic;
+    font-size:2.5rem;
+}
+
+.img__logo{
+    width: 2rem;
+}
+
+.img__slider{
+    width: 100%;
+    height: 80vh;
 }
