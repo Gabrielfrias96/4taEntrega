@@ -1,7 +1,7 @@
 @import "variables";
 @import "fonts";
 @import "mixins";
-
+@import "cards";
 
 .container_background{
     margin:0px 25px;
@@ -47,6 +47,7 @@ body{
 }
 
 .text__ofert{
+    cursor:pointer;
     background-color: $cool-rosa;
     border-radius: 10px;
     border: solid 1px #857f7f;
@@ -58,4 +59,16 @@ body{
      h2{
          color: $cool-blanco;
      }
+}
+
+.container__info{
+    background-color: $cool-negro;
+    width: 100%;
+    height: 400px;
+}
+
+.icon__info{
+    color: $cool-blanco;
+    font-size:11rem ;
+
 }
