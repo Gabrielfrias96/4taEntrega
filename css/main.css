@@ -1,9 +1,27 @@
+h1 {
+  font-family: "Mulish", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 2.5rem; }
+
+h2 {
+  font-family: "Mulish", sans-serif;
+  font-weight: 900;
+  font-size: 2.2rem; }
+
+h3 {
+  font-family: "Mulish", sans-serif;
+  font-weight: 900; }
+
 .container_background {
-  margin-top: 25px;
+  margin: 0px 25px;
+  padding: 0px;
   width: 100%;
   text-align: center; }
 
 body {
+  margin: 0px;
+  padding: 0px;
   font-family: muli, sans-serif;
   font-weight: 800;
   color: #4637A6;
@@ -14,11 +32,13 @@ body {
   .nav-item a {
     color: #4637A6; }
 
-h1 {
-  font-family: "Mulish", sans-serif;
-  font-weight: 900;
-  font-style: italic;
-  font-size: 2.5rem; }
+.row {
+  margin: 0px;
+  padding: 0px; }
+
+.container-fluid {
+  margin: 0px;
+  padding: 0px; }
 
 .img__logo {
   width: 2rem; }
@@ -26,3 +46,15 @@ h1 {
 .img__slider {
   width: 100%;
   height: 80vh; }
+
+.text__ofert {
+  background-color: #F2508B;
+  border-radius: 10px;
+  border: solid 1px #857f7f;
+  width: 200px;
+  height: 300px;
+  align-self: center;
+  text-align: center;
+  padding-top: 50px; }
+  .text__ofert h2 {
+    color: #FEFEFE; }
