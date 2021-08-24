@@ -29,4 +29,13 @@
     color: $cool-blanco;
 }
 
+@mixin secciones-tienda{
+    width:100%;
+    background-color:$cool-background;
+    display:flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     align-items: center;}
+    
+
 

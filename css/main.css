@@ -21,6 +21,41 @@ h3 {
 .card:hover {
   transform: scale(1.1); }
 
+.card-tienda {
+  background-color: #FEFEFE;
+  color: #4637A6;
+  margin: 0px 15px 40px 15px;
+  box-shadow: 0px 10px 10px -6px black;
+  border-radius: 20px;
+  width: 200px;
+  height: 360px;
+  overflow: hidden; }
+  .card-tienda h3 {
+    font-size: 20px; }
+    .card-tienda h3 span {
+      font-size: 13px;
+      background-color: #4fbd5f !important; }
+  .card-tienda p {
+    font-size: 15px; }
+  .card-tienda .img__tienda {
+    width: 200px;
+    height: 250px; }
+  .card-tienda button {
+    font-family: "Mulish", sans-serif;
+    color: #FEFEFE;
+    background-color: #F2508B;
+    border-radius: 50px;
+    border: none; }
+
+.card-tienda:hover {
+  transition-duration: 0.4s;
+  transform: scale(1.1);
+  background-color: #F2508B;
+  color: #FEFEFE; }
+  .card-tienda:hover .button {
+    background-color: #FEFEFE;
+    color: #4637A6; }
+
 .container_background {
   margin: 0px 25px;
   padding: 0px;
@@ -42,7 +77,10 @@ body {
   background-color: #F1F4F9; }
 
 .container__nav .nav-item .nav-link {
-  color: #4637A6; }
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0px 10px 0px 15px;
+  color: #4637A6 !important; }
 
 .row {
   margin: 0px;
@@ -128,9 +166,6 @@ body {
   font-size: 5rem;
   color: #ccc4c4; }
 
-.animate__backInDown {
-  --animate-repeat:none; }
-
 .text__pagos {
   text-align: center;
   color: #4637A6; }
@@ -187,6 +222,7 @@ footer {
       font-weight: 400;
       color: #FEFEFE; }
   footer .footer__derechos {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -194,3 +230,131 @@ footer {
     color: #FEFEFE;
     text-align: center;
     font-weight: 400; }
+
+/* ---------------------------Aqui Empieza la tienda -------------------------------------*/
+#jeans:checked ~ #cards .remeras {
+  display: none; }
+
+#jeans:checked ~ #cards .buzos {
+  display: none; }
+
+#jeans:checked ~ #cards .camperas {
+  display: none; }
+
+#buzos:checked ~ #cards .remeras {
+  display: none; }
+
+#buzos:checked ~ #cards .jean {
+  display: none; }
+
+#buzos:checked ~ #cards .camperas {
+  display: none; }
+
+#remeras:checked ~ #cards .jean {
+  display: none; }
+
+#remeras:checked ~ #cards .camperas {
+  display: none; }
+
+#remeras:checked ~ #cards .buzos {
+  display: none; }
+
+#camperas:checked ~ #cards .buzos {
+  display: none; }
+
+#camperas:checked ~ #cards .jean {
+  display: none; }
+
+#camperas:checked ~ #cards .remeras {
+  display: none; }
+
+.container__flitro {
+  width: 100%;
+  background-color: #4637A6;
+  text-align: center;
+  font-weight: 400;
+  color: white; }
+  .container__flitro label {
+    padding: 10px; }
+
+.container__articulos .remeras {
+  width: 100%;
+  background-color: #F1F4F9;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.container__articulos .jean {
+  width: 100%;
+  background-color: #F1F4F9;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.container__articulos .buzos {
+  width: 100%;
+  background-color: #F1F4F9;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.container__articulos .camperas {
+  width: 100%;
+  background-color: #F1F4F9;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center; }
+
+/* --------------------------Aqui empieza la page locales ------------------------*/
+.container__locales {
+  text-align: center;
+  color: #4637A6; }
+
+.img__local {
+  border-radius: 10px; }
+
+.container__text--local {
+  color: #37344F;
+  background-color: #FEFEFE;
+  border-radius: 20px;
+  padding: 15px;
+  text-align: center;
+  width: 550px;
+  height: 200px; }
+
+.container__info--locales {
+  color: #37344F; }
+  .container__info--locales .redes {
+    color: #4637A6;
+    font-size: 3rem; }
+    .container__info--locales .redes a {
+      text-decoration: none;
+      color: #4637A6; }
+
+/* --------------------Aqui comienza la page Contacto--------------------*/
+.container__form {
+  background-color: #F1F4F9; }
+
+.text__contacto {
+  background-color: #FEFEFE;
+  align-self: center;
+  text-align: center;
+  border: 5px solid #F2508B;
+  border-radius: 100px;
+  box-shadow: 0px 10px 10px -6px black; }
+  .text__contacto h1 {
+    font-size: 2rem;
+    color: #4637A6; }
+
+.form-contact {
+  color: #FEFEFE;
+  width: 400px;
+  height: 600px;
+  padding: 20px;
+  text-align: center;
+  background-color: #F2508B;
+  border-radius: 25px; }

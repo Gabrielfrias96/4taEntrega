@@ -27,16 +27,15 @@ body{
 
 
 .container__nav{
-    
     .nav-item{
         .nav-link{
-            color:$cool-morado ;   
+            font-size: 20px;
+            font-weight: 600;
+            padding: 0px 10px 0px 15px;
+            color:$cool-morado !important;   
         }
     }
-    
-   
 }
-
 
 .row{
     @include reset-pm;
@@ -131,10 +130,6 @@ body{
     color:#ccc4c4;
 }
 
-.animate__backInDown{
-   --animate-repeat:none;
-}
-
 .text__pagos{
     text-align: center;
     color:$cool-morado;
@@ -184,6 +179,7 @@ footer{
         }
     }
     .footer__derechos{
+        width:100%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -192,4 +188,95 @@ footer{
         text-align: center;
         font-weight: 400;
     }
+}
+
+ /* ---------------------------Aqui Empieza la tienda -------------------------------------*/
+
+ #jeans:checked ~ #cards .remeras{display:none;}; 
+ #jeans:checked ~ #cards .buzos{display:none;};
+ #jeans:checked ~ #cards .camperas{display:none;};
+
+ #buzos:checked ~ #cards .remeras{display:none};
+ #buzos:checked ~ #cards .jean{display:none};
+ #buzos:checked ~ #cards .camperas{display:none};
+
+ #remeras:checked ~ #cards .jean{display:none};
+ #remeras:checked ~ #cards .camperas{display:none};
+ #remeras:checked ~ #cards .buzos{display:none};
+
+ #camperas:checked ~ #cards .buzos{display:none};
+ #camperas:checked ~ #cards .jean{display:none};
+ #camperas:checked ~ #cards .remeras{display:none};
+
+ .container__flitro{
+     width: 100%;
+    background-color:$cool-morado;
+    text-align: center;
+    font-weight: 400;
+     color:white;
+     label{padding:10px;}
+ }
+
+.container__articulos{
+    .remeras{ @include secciones-tienda;}
+    .jean{@include secciones-tienda;}
+    .buzos{@include secciones-tienda}
+    .camperas{@include secciones-tienda}
+    }
+   
+/* --------------------------Aqui empieza la page locales ------------------------*/
+.container__locales{
+    text-align: center;
+    color:$cool-morado;
+}
+.img__local{
+    border-radius: 10px;
+}
+.container__text--local{ 
+    color:$cool-negro;
+    background-color: $cool-blanco;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    width:550px;
+    height:200px;
+}
+
+.container__info--locales{
+    color:$cool-negro;
+    .redes{
+        color:$cool-morado;
+        font-size: 3rem;
+        a{
+            text-decoration: none;
+            color:$cool-morado ;
+        }
+    }
+}
+
+/* --------------------Aqui comienza la page Contacto--------------------*/
+.container__form{
+    background-color:$cool-background;
+}
+
+.text__contacto{
+    background-color:$cool-blanco;
+    align-self: center;
+    text-align: center;
+    border: 5px solid $cool-rosa;
+    border-radius:100px;
+    box-shadow: 0px 10px 10px -6px black;
+    h1{
+        font-size:2rem;
+        color:$cool-morado;
+    }
+}
+.form-contact{
+    color:$cool-blanco;
+    width:400px;
+    height:600px;
+    padding:20px;
+    text-align:center;
+    background-color:$cool-rosa;
+    border-radius: 25px;
 }
