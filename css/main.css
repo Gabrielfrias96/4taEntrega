@@ -7,7 +7,7 @@ h1 {
 h2 {
   font-family: "Mulish", sans-serif;
   font-weight: 900;
-  font-size: 2.2rem; }
+  font-size: 2.3rem; }
 
 h3 {
   font-family: "Mulish", sans-serif;
@@ -27,18 +27,22 @@ h3 {
   width: 100%;
   text-align: center; }
 
+.container__encabezado {
+  text-align: center;
+  padding: 20px;
+  background-color: #4637A6; }
+  .container__encabezado h1 {
+    color: #FEFEFE; }
+
 body {
   margin: 0px;
   padding: 0px;
   font-family: muli, sans-serif;
   font-weight: 800;
-  color: #4637A6;
   background-color: #F1F4F9; }
 
-.nav-item {
-  padding: 0px 15px; }
-  .nav-item a {
-    color: #4637A6; }
+.container__nav .nav-item .nav-link {
+  color: #4637A6; }
 
 .row {
   margin: 0px;
@@ -67,12 +71,14 @@ body {
   padding-top: 50px; }
   .text__ofert h2 {
     color: #FEFEFE; }
+  .text__ofert h3 {
+    color: #FEFEFE; }
 
 .text__ofert:hover {
   background-color: #FE5E66; }
 
 .container__info {
-  background-color: #37344F;
+  background-color: #4637A6;
   display: flex;
   align-items: center;
   text-align: center;
@@ -120,4 +126,71 @@ body {
   align-items: center;
   justify-content: space-evenly;
   font-size: 5rem;
-  color: #F2508B; }
+  color: #ccc4c4; }
+
+.animate__backInDown {
+  --animate-repeat:none; }
+
+.text__pagos {
+  text-align: center;
+  color: #4637A6; }
+
+.btn-tienda {
+  background-color: #FEFEFE;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px -6px black;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  color: #4637A6;
+  padding: 50px; }
+  .btn-tienda .icon__tienda {
+    color: #4637A6;
+    font-size: 7rem; }
+
+.btn-tienda:hover {
+  background-color: #F2508B;
+  color: #FEFEFE; }
+  .btn-tienda:hover .icon__tienda {
+    color: #FEFEFE; }
+
+.btn-oulet {
+  background-color: #FEFEFE;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px -6px black;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  color: #4637A6;
+  padding: 50px; }
+  .btn-oulet .icon__oulet {
+    color: #4637A6;
+    font-size: 7rem; }
+
+.btn-oulet:hover {
+  background-color: #F2508B;
+  color: #FEFEFE; }
+  .btn-oulet:hover .icon__oulet {
+    color: #FEFEFE; }
+
+footer {
+  background-color: #4637A6;
+  color: #FEFEFE;
+  font-weight: 600;
+  padding: 10px 10px 0px 25px; }
+  footer ul li {
+    display: block; }
+    footer ul li a {
+      text-decoration: underline;
+      font-weight: 400;
+      color: #FEFEFE; }
+  footer .footer__derechos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37344F;
+    color: #FEFEFE;
+    text-align: center;
+    font-weight: 400; }

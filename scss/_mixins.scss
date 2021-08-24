@@ -1,0 +1,32 @@
+@mixin reset-pm{
+    margin:0px;
+    padding:0px;
+}
+
+@mixin card-btn {
+    background-color: $cool-blanco;
+    cursor:pointer;
+    box-shadow: 0px 10px 10px -6px black;
+    border-radius: 10px; 
+    width:300px;
+    height:300px;
+    text-align:center;
+    color: $cool-morado;
+    padding:50px;
+}
+
+@mixin icon-card-btn {
+    color: $cool-morado;
+    font-size:7rem;
+}
+
+@mixin card-btn__hover{
+    background-color: $cool-rosa;
+    color: $cool-blanco;
+}
+
+@mixin icon-card__hover{
+    color: $cool-blanco;
+}
+
+

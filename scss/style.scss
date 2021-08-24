@@ -3,39 +3,47 @@
 @import "mixins";
 @import "cards";
 
+
 .container_background{
     margin:0px 25px;
     padding:0px;
     width: 100%;
     text-align: center;
-    
-    
 }
-
+.container__encabezado{
+    text-align: center;
+    padding: 20px;
+    background-color: $cool-morado;
+    h1{
+        color:$cool-blanco;
+    }
+}
 body{
-    margin:0px;
-    padding:0px;
+    @include reset-pm;
     font-family:muli, sans-serif;
     font-weight: 800;
-    color:$cool-morado;
     background-color:$cool-background;
 }
 
-.nav-item{
-    padding:0px 15px;
-    a{
-    color:$cool-morado;
-}
+
+.container__nav{
+    
+    .nav-item{
+        .nav-link{
+            color:$cool-morado ;   
+        }
+    }
+    
+   
 }
 
+
 .row{
-    margin:0px;
-    padding:0px;
+    @include reset-pm;
 }
 
 .container-fluid{
-    margin:0px;
-    padding:0px;
+    @include reset-pm;
 }
 .img__logo{
     width: 2rem;
@@ -59,13 +67,17 @@ body{
      h2{
          color: $cool-blanco;
      }
+
+     h3{
+         color:$cool-blanco;
+     }
 }
 
 .text__ofert:hover{
     background-color: $cool-naranja;
 }
 .container__info{
-    background-color: $cool-negro;
+    background-color: $cool-morado;
     display:flex;
     align-items: center;
     text-align: center;
@@ -116,6 +128,68 @@ body{
     align-items: center;
     justify-content: space-evenly;
     font-size:5rem;
-    color:$cool-rosa;
+    color:#ccc4c4;
+}
 
+.animate__backInDown{
+   --animate-repeat:none;
+}
+
+.text__pagos{
+    text-align: center;
+    color:$cool-morado;
+}
+
+.btn-tienda{
+    @include card-btn;
+    .icon__tienda{
+        @include icon-card-btn;
+    }
+}
+
+.btn-tienda:hover{
+    @include card-btn__hover;
+    .icon__tienda{
+        @include icon-card__hover
+    }
+}
+
+.btn-oulet{
+    @include card-btn;
+    .icon__oulet{
+        @include icon-card-btn;
+    }
+}
+
+.btn-oulet:hover{
+    @include card-btn__hover;
+    .icon__oulet{
+        @include icon-card__hover
+    }
+}
+
+
+footer{
+    background-color:$cool-morado;
+    color:$cool-blanco;
+    font-weight: 600;
+    padding:10px 10px 0px 25px;
+    ul{ li{
+        display: block;
+        a{
+            text-decoration: underline;
+            font-weight: 400;
+            color: $cool-blanco;
+        }
+        }
+    }
+    .footer__derechos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:$cool-negro;
+        color: $cool-blanco;
+        text-align: center;
+        font-weight: 400;
+    }
 }
