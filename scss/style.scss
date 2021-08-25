@@ -176,9 +176,10 @@ footer{
     background-color:$cool-morado;
     color:$cool-blanco;
     font-weight: 600;
-    padding:10px 10px 0px 25px;
+    padding:30px 10px 0px 25px;
     ul{ li{
         display: block;
+        padding:5px;
         a{
             text-decoration: underline;
             font-weight: 400;
@@ -187,6 +188,7 @@ footer{
         }
     }
     .footer__derechos{
+        padding-top:20px;
         width:100%;
         display: flex;
         justify-content: center;

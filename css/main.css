@@ -222,14 +222,16 @@ footer {
   background-color: #4637A6;
   color: #FEFEFE;
   font-weight: 600;
-  padding: 10px 10px 0px 25px; }
+  padding: 30px 10px 0px 25px; }
   footer ul li {
-    display: block; }
+    display: block;
+    padding: 5px; }
     footer ul li a {
       text-decoration: underline;
       font-weight: 400;
       color: #FEFEFE; }
   footer .footer__derechos {
+    padding-top: 20px;
     width: 100%;
     display: flex;
     justify-content: center;
