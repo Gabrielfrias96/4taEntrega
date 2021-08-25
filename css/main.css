@@ -17,6 +17,10 @@ h3 {
   cursor: pointer;
   border-radius: 10px;
   transition-duration: 0.4s; }
+  .card h3 {
+    font-size: 1.2rem; }
+  .card p {
+    font-size: .8rem; }
 
 .card:hover {
   transform: scale(1.1); }
@@ -56,6 +60,14 @@ h3 {
     background-color: #FEFEFE;
     color: #4637A6; }
 
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: muli, sans-serif;
+  font-weight: 800;
+  background-color: #F1F4F9; }
+
+/*--------------------------Aqui esta la page index ---------------------------*/
 .container_background {
   margin: 0px 25px;
   padding: 0px;
@@ -68,13 +80,6 @@ h3 {
   background-color: #4637A6; }
   .container__encabezado h1 {
     color: #FEFEFE; }
-
-body {
-  margin: 0px;
-  padding: 0px;
-  font-family: muli, sans-serif;
-  font-weight: 800;
-  background-color: #F1F4F9; }
 
 .container__nav .nav-item .nav-link {
   font-size: 20px;
@@ -118,6 +123,7 @@ body {
 .container__info {
   background-color: #4637A6;
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
   color: #FEFEFE;
@@ -126,37 +132,6 @@ body {
   .container__info .icon__info {
     color: #FEFEFE;
     font-size: 9rem; }
-
-.btn__whatsapp {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  border-radius: 50px;
-  background-color: #25D940;
-  bottom: 15px;
-  right: 30px;
-  cursor: pointer;
-  z-index: 100;
-  animation: latidos 3s infinite; }
-  .btn__whatsapp .icon__whatsapp {
-    font-size: 3rem;
-    color: #FEFEFE; }
-
-@keyframes latidos {
-  from {
-    transform: none; }
-  50% {
-    transform: scale(1.2); }
-  to {
-    transform: none; } }
-
-.btn__whatsapp:hover {
-  background-color: #FEFEFE; }
-  .btn__whatsapp:hover .icon__whatsapp {
-    color: #25D940; }
 
 .container__icon--pagos {
   display: flex;
@@ -210,6 +185,39 @@ body {
   .btn-oulet:hover .icon__oulet {
     color: #FEFEFE; }
 
+/*---------------------Aqui esta el boton de whatsapp ---------------------------*/
+.btn__whatsapp {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  background-color: #25D940;
+  bottom: 15px;
+  right: 30px;
+  cursor: pointer;
+  z-index: 100;
+  animation: latidos 3s infinite; }
+  .btn__whatsapp .icon__whatsapp {
+    font-size: 3rem;
+    color: #FEFEFE; }
+
+@keyframes latidos {
+  from {
+    transform: none; }
+  50% {
+    transform: scale(1.2); }
+  to {
+    transform: none; } }
+
+.btn__whatsapp:hover {
+  background-color: #FEFEFE; }
+  .btn__whatsapp:hover .icon__whatsapp {
+    color: #25D940; }
+
+/*---------------------------Aqui esta el footer -----------------------------*/
 footer {
   background-color: #4637A6;
   color: #FEFEFE;
@@ -358,3 +366,39 @@ footer {
   text-align: center;
   background-color: #F2508B;
   border-radius: 25px; }
+
+/*--------------------- Aqui estan las MediaQueries -----------*/
+@media (max-width: 768px) {
+  .container__encabezado h1 {
+    font-size: 1.5rem; }
+  .container__icon--pagos {
+    font-size: 2rem; }
+  .container__info {
+    width: 100%;
+    height: 400px; }
+    .container__info .icon__info {
+      font-size: 2rem; }
+  .img__slider {
+    height: 40vh; } }
+
+@media (max-width: 576px) {
+  .container__info {
+    width: 100%;
+    height: 460px; }
+    .container__info .icon__info {
+      font-size: 2rem; }
+  .text__ofert {
+    width: 90%;
+    height: 100px;
+    padding-top: 40px; }
+    .text__ofert h2 {
+      font-size: 1.5rem; }
+  .container__flitro label {
+    padding: 5px;
+    font-size: 0.7rem !important;
+    font-weight: 400 !important; } }
+
+.text__contacto {
+  width: 90%; }
+  .text__contacto h1 {
+    font-size: 1.2rem; }
