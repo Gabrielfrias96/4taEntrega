@@ -155,6 +155,9 @@ body {
   text-align: center;
   color: #4637A6;
   padding: 50px; }
+  .btn-tienda a {
+    text-decoration: none;
+    color: #4637A6; }
   .btn-tienda .icon__tienda {
     color: #4637A6;
     font-size: 7rem; }
@@ -162,6 +165,8 @@ body {
 .btn-tienda:hover {
   background-color: #F2508B;
   color: #FEFEFE; }
+  .btn-tienda:hover a {
+    color: #FEFEFE; }
   .btn-tienda:hover .icon__tienda {
     color: #FEFEFE; }
 
@@ -175,6 +180,9 @@ body {
   text-align: center;
   color: #4637A6;
   padding: 50px; }
+  .btn-oulet a {
+    text-decoration: none;
+    color: #4637A6; }
   .btn-oulet .icon__oulet {
     color: #4637A6;
     font-size: 7rem; }
@@ -182,6 +190,8 @@ body {
 .btn-oulet:hover {
   background-color: #F2508B;
   color: #FEFEFE; }
+  .btn-oulet:hover a {
+    color: #FEFEFE; }
   .btn-oulet:hover .icon__oulet {
     color: #FEFEFE; }
 

@@ -108,6 +108,10 @@ body{
 }
 
 .btn-tienda{
+    a{ 
+        text-decoration:none;
+        color:$cool-morado;
+    }
     @include card-btn;
     .icon__tienda{
         @include icon-card-btn;
@@ -115,6 +119,7 @@ body{
 }
 
 .btn-tienda:hover{
+    a{color:$cool-blanco}
     @include card-btn__hover;
     .icon__tienda{
         @include icon-card__hover
@@ -122,6 +127,10 @@ body{
 }
 
 .btn-oulet{
+    a{ 
+        text-decoration:none;
+        color:$cool-morado;
+    }
     @include card-btn;
     .icon__oulet{
         @include icon-card-btn;
@@ -129,6 +138,7 @@ body{
 }
 
 .btn-oulet:hover{
+    a{color:$cool-blanco}
     @include card-btn__hover;
     .icon__oulet{
         @include icon-card__hover
