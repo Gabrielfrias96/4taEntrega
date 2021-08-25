@@ -299,6 +299,7 @@ footer {
 
 .container__articulos .remeras {
   width: 100%;
+  height: 100vh;
   background-color: #F1F4F9;
   display: flex;
   flex-wrap: wrap;
@@ -307,6 +308,7 @@ footer {
 
 .container__articulos .jean {
   width: 100%;
+  height: 100vh;
   background-color: #F1F4F9;
   display: flex;
   flex-wrap: wrap;
@@ -315,6 +317,7 @@ footer {
 
 .container__articulos .buzos {
   width: 100%;
+  height: 100vh;
   background-color: #F1F4F9;
   display: flex;
   flex-wrap: wrap;
@@ -323,6 +326,7 @@ footer {
 
 .container__articulos .camperas {
   width: 100%;
+  height: 100vh;
   background-color: #F1F4F9;
   display: flex;
   flex-wrap: wrap;
