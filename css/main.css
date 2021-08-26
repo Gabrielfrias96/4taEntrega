@@ -1,7 +1,6 @@
 h1 {
   font-family: "Mulish", sans-serif;
   font-weight: 900;
-  font-style: italic;
   font-size: 2.5rem; }
 
 h2 {
@@ -96,7 +95,9 @@ body {
   padding: 0px; }
 
 .img__logo {
-  width: 2rem; }
+  width: 8rem;
+  height: 2.5rem;
+  object-fit: cover; }
 
 .img__slider {
   width: 100%;
@@ -231,15 +232,20 @@ body {
 footer {
   background-color: #4637A6;
   color: #FEFEFE;
+  text-align: center;
   font-weight: 600;
-  padding: 30px 10px 0px 25px; }
-  footer ul li {
-    display: block;
-    padding: 5px; }
-    footer ul li a {
-      text-decoration: underline;
-      font-weight: 400;
-      color: #FEFEFE; }
+  padding: 30px 0px 0px 0px; }
+  footer h3 {
+    margin: 30px 15px 10px 30px; }
+  footer ul {
+    margin: 10px 15px 10px 30px; }
+    footer ul li {
+      display: block;
+      padding: 5px; }
+      footer ul li a {
+        text-decoration: underline;
+        font-weight: 400;
+        color: #FEFEFE; }
   footer .footer__derechos {
     padding-top: 20px;
     width: 100%;
@@ -252,40 +258,40 @@ footer {
     font-weight: 400; }
 
 /* ---------------------------Aqui Empieza la tienda -------------------------------------*/
-#jeans:checked ~ #cards .remeras {
+#jeans:checked ~ #card .remeras {
   display: none; }
 
-#jeans:checked ~ #cards .buzos {
+#jeans:checked ~ #card .buzos {
   display: none; }
 
-#jeans:checked ~ #cards .camperas {
+#jeans:checked ~ #card .camperas {
   display: none; }
 
-#buzos:checked ~ #cards .remeras {
+#buzos:checked ~ #card .remeras {
   display: none; }
 
-#buzos:checked ~ #cards .jean {
+#buzos:checked ~ #card .jeans {
   display: none; }
 
-#buzos:checked ~ #cards .camperas {
+#buzos:checked ~ #card .camperas {
   display: none; }
 
-#remeras:checked ~ #cards .jean {
+#remeras:checked ~ #card .jeans {
   display: none; }
 
-#remeras:checked ~ #cards .camperas {
+#remeras:checked ~ #card .camperas {
   display: none; }
 
-#remeras:checked ~ #cards .buzos {
+#remeras:checked ~ #card .buzos {
   display: none; }
 
-#camperas:checked ~ #cards .buzos {
+#camperas:checked ~ #card .buzos {
   display: none; }
 
-#camperas:checked ~ #cards .jean {
+#camperas:checked ~ #card .jeans {
   display: none; }
 
-#camperas:checked ~ #cards .remeras {
+#camperas:checked ~ #card .remeras {
   display: none; }
 
 .container__flitro {
@@ -297,31 +303,7 @@ footer {
   .container__flitro label {
     padding: 10px; }
 
-.container__articulos .remeras {
-  width: 100%;
-  background-color: #F1F4F9;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center; }
-
-.container__articulos .jean {
-  width: 100%;
-  background-color: #F1F4F9;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center; }
-
-.container__articulos .buzos {
-  width: 100%;
-  background-color: #F1F4F9;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center; }
-
-.container__articulos .camperas {
+.container__articulos {
   width: 100%;
   background-color: #F1F4F9;
   display: flex;

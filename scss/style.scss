@@ -3,6 +3,7 @@
 @import "mixins";
 @import "cards";
 
+
 body{
     @include reset-pm;
     font-family:muli, sans-serif;
@@ -47,7 +48,9 @@ body{
     @include reset-pm;
 }
 .img__logo{
-    width: 2rem;
+    width: 8rem;
+    height: 2.5rem;
+    object-fit: cover;
 }
 
 .img__slider{
@@ -185,9 +188,15 @@ body{
 footer{
     background-color:$cool-morado;
     color:$cool-blanco;
+    text-align: center;
     font-weight: 600;
-    padding:30px 10px 0px 25px;
-    ul{ li{
+    padding:30px 0px 0px 0px;
+    h3{
+        margin:30px 15px 10px 30px;
+    }
+    ul{
+        margin:10px 15px 10px 30px;
+         li{
         display: block;
         padding:5px;
         a{
@@ -207,27 +216,27 @@ footer{
         color: $cool-blanco;
         text-align: center;
         font-weight: 400;
+        
     }
 }
 
  /* ---------------------------Aqui Empieza la tienda -------------------------------------*/
 
- #jeans:checked ~ #cards .remeras{display:none;}; 
- #jeans:checked ~ #cards .buzos{display:none;};
- #jeans:checked ~ #cards .camperas{display:none;};
+ #jeans:checked ~ #card .remeras{display:none;}; 
+ #jeans:checked ~ #card .buzos{display:none;};
+ #jeans:checked ~ #card .camperas{display:none;};
+ 
+ #buzos:checked ~ #card .remeras{display:none};
+ #buzos:checked ~ #card .jeans{display:none};
+ #buzos:checked ~ #card .camperas{display:none};
 
- #buzos:checked ~ #cards .remeras{display:none};
- #buzos:checked ~ #cards .jean{display:none};
- #buzos:checked ~ #cards .camperas{display:none};
+ #remeras:checked ~ #card .jeans{display:none};
+ #remeras:checked ~ #card .camperas{display:none};
+ #remeras:checked ~ #card .buzos{display:none};
 
- #remeras:checked ~ #cards .jean{display:none};
- #remeras:checked ~ #cards .camperas{display:none};
- #remeras:checked ~ #cards .buzos{display:none};
-
- #camperas:checked ~ #cards .buzos{display:none};
- #camperas:checked ~ #cards .jean{display:none};
- #camperas:checked ~ #cards .remeras{display:none};
-
+ #camperas:checked ~ #card .buzos{display:none};
+ #camperas:checked ~ #card .jeans{display:none};
+ #camperas:checked ~ #card .remeras{display:none};
 
  .container__flitro{
      width: 100%;
@@ -239,10 +248,7 @@ footer{
  }
 
 .container__articulos{
-    .remeras{ @include secciones-tienda;}
-    .jean{@include secciones-tienda;}
-    .buzos{@include secciones-tienda}
-    .camperas{@include secciones-tienda}
+    @include secciones-tienda;
     }
    
 /* --------------------------Aqui empieza la page locales ------------------------*/

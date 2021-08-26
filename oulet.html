@@ -21,7 +21,7 @@
     <header><!--Aqui esta el Navbar-->
         <nav class="navbar sticky-top navbar-expand-lg navbar-light">
           <div class="container px-3">
-            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo" class="img-fluid img__logo"></a>
+            <a class="navbar-brand" href="index.html"><img src="img/logo2.png" alt="logo" class="img-fluid img__logo">DeCompras</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -37,7 +37,7 @@
                   <a class="nav-link" href="locales.html">Locales</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="oulet.html">Oulet</a>
+                  <a class="nav-link" href="oulet.html" style="text-decoration:underline !important;">Oulet</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="contacto.html">Contacto</a>
@@ -49,6 +49,7 @@
     </header>
     <section><!--Aqui esta el Filtro y los Productos-->
           <div class="container__flitro">
+            <h1>¡Aprovecha nustros mejores Descuentos!</h1>
             <input type="radio" id="todo" name="filtro" checked>
             <label for="Todo">Todo</label>
             <input type="radio" id="buzos" name="filtro" >
@@ -59,162 +60,155 @@
             <label for="buzos">-15% OFF</label>
             <input type="radio" id="jeans" name="filtro" >
             <label for="camperas">-10% OFF</label>
-            <div class="container__articulos" id="cards">
-              <div class="remeras 30% pt-5">
-                <div class="card-tienda">
-                  <img src="img/articulos/remeras/article1.jpeg" alt="remera" class="img-fluid img__tienda">
-                  <h3>Precio $550 <span class="badge bg-secondary">-30% OFF</span></h3>
-                  <p>Remera Gran estilo.</p>
-                  <button>Comprar</button>
-                </div>
-                <div class="card-tienda">
-                  <img src="img/articulos/remeras/article2.jpeg" alt="remera" class="img-fluid img__tienda">
-                  <h3>Precio $550 <span class="badge bg-secondary">-30% OFF</span></h3>
-                  <p>Remera Gran estilo.</p>
-                  <button>Comprar</button>
-                </div>
-                <div class="card-tienda">
-                  <img src="img/articulos/remeras/article3.jpeg" alt="remera" class="img-fluid img__tienda">
-                  <h3>Precio $550 <span class="badge bg-secondary">-30% OFF</span></h3>
-                  <p>Remera Gran estilo.</p>
-                  <button>Comprar</button>
-                </div>
-                <div class="card-tienda">
-                  <img src="img/articulos/remeras/article4.jpeg" alt="remera" class="img-fluid img__tienda">
-                  <h3>Precio $550 <span class="badge bg-secondary">-30% OFF</span></h3>
-                  <p>Remera Gran estilo.</p>
-                  <button>Comprar</button>
-                </div>
-                <div class="card-tienda">
-                  <img src="img/articulos/remeras/article5.jpg" alt="remera" class="img-fluid img__tienda">
-                  <h3>Precio $550 <span class="badge bg-secondary">-30% OFF</span></h3>
-                  <p>Remera Gran estilo.</p>
-                  <button>Comprar</button>
-                </div>
+            <div class="container__articulos p-5" id="card">
+              <div class="card-tienda jeans">
+                <img src="img/articulos/remeras/article1.jpeg" alt="remera" class="img-fluid img__tienda">
+                <h3>Precio $550 <span class="badge bg-secondary">-15% OFF</span></h3>
+                <p>Remera Gran estilo.</p>
+                <button>Comprar</button>
               </div>
-            <div class="jean 10%">
-              <div class="card-tienda">
+              <div class="card-tienda remeras">
+                <img src="img/articulos/remeras/article2.jpeg" alt="remera" class="img-fluid img__tienda">
+                <h3>Precio $550 <span class="badge bg-secondary">-30% OFF</span></h3>
+                <p>Remera Gran estilo.</p>
+                <button>Comprar</button>
+              </div>
+              <div class="card-tienda remeras">
+                <img src="img/articulos/remeras/article3.jpeg" alt="remera" class="img-fluid img__tienda">
+                <h3>Precio $550 <span class="badge bg-secondary">-30% OFF</span></h3>
+                <p>Remera Gran estilo.</p>
+                <button>Comprar</button>
+              </div>
+              <div class="card-tienda buzos">
+                <img src="img/articulos/remeras/article4.jpeg" alt="remera" class="img-fluid img__tienda">
+                <h3>Precio $550 <span class="badge bg-secondary">-50% OFF</span></h3>
+                <p>Remera Gran estilo.</p>
+                <button>Comprar</button>
+              </div>
+              <div class="card-tienda camperas">
+                <img src="img/articulos/remeras/article5.jpg" alt="remera" class="img-fluid img__tienda">
+                <h3>Precio $550 <span class="badge bg-secondary">-15% OFF</span></h3>
+                <p>Remera Gran estilo.</p>
+                <button>Comprar</button>
+              </div>
+              <div class="card-tienda buzos">
                 <img src="img/articulos/jeans/article1.jpeg" alt="articulo jean" class="img-fluid img__tienda">
-                <h3>Precio $550 <span class="badge bg-secondary">-10% OFF</span></h3>
+                <h3>Precio $550 <span class="badge bg-secondary">-50% OFF</span></h3>
                 <p>Remera Gran estilo.</p>
                 <button>Comprar</button>
               </div>
-              <div class="card-tienda">
+              <div class="card-tienda remeras">
                 <img src="img/articulos/jeans/article2.jpeg" alt="articulo jean" class="img-fluid img__tienda">
-                <h3>Precio $550 <span class="badge bg-secondary">-10% OFF</span></h3>
+                <h3>Precio $280 <span class="badge bg-secondary">-30% OFF</span></h3>
                 <p>Remera Gran estilo.</p>
                 <button>Comprar</button>
               </div>
-              <div class="card-tienda">
+              <div class="card-tienda buzos">
                 <img src="img/articulos/jeans/article3.jpeg" alt="articulo jean" class="img-fluid img__tienda">
-                  <h3>Precio $550 <span class="badge bg-secondary">-10% OFF</span></h3>
+                  <h3>Precio $510 <span class="badge bg-secondary">-50% OFF</span></h3>
                   <p>Remera Gran estilo.</p>
                   <button>Comprar</button>
               </div>
-              <div class="card-tienda">
+              <div class="card-tienda remeras">
                   <img src="img/articulos/jeans/article4.jpeg" alt="articulo jean" class="img-fluid img__tienda">
-                  <h3>Precio $550 <span class="badge bg-secondary">-10% OFF</span></h3>
+                  <h3>Precio $580 <span class="badge bg-secondary">-30% OFF</span></h3>
                   <p>Remera Gran estilo.</p>
                   <button>Comprar</button>
               </div>
-              <div class="card-tienda">
+              <div class="card-tienda buzos">
                   <img src="img/articulos/jeans/article5.jpeg" alt="articulo jean" class="img-fluid img__tienda">
-                  <h3>Precio $550 <span class="badge bg-secondary">-10% OFF</span></h3>
+                  <h3>Precio $490 <span class="badge bg-secondary">-50% OFF</span></h3>
                   <p>Remera Gran estilo.</p>
                   <button>Comprar</button>
               </div>
-              <div class="card-tienda">
+              <div class="card-tienda camperas">
                   <img src="img/articulos/jeans/article6.jpeg" alt="articulo jean" class="img-fluid img__tienda">
-                  <h3>Precio $550 <span class="badge bg-secondary">-10% OFF</span></h3>
+                  <h3>Precio $410 <span class="badge bg-secondary">-15% OFF</span></h3>
                   <p>Remera Gran estilo.</p>
                   <button>Comprar</button>
               </div>
-              <div class="card-tienda">
+              <div class="card-tienda camperas">
                   <img src="img/articulos/jeans/article7.jpeg" alt="articulo jean" class="img-fluid img__tienda">
-                  <h3>Precio $550 <span class="badge bg-secondary">-10% OFF</span></h3>
+                  <h3>Precio $460 <span class="badge bg-secondary">-15% OFF</span></h3>
                   <p>Remera Gran estilo.</p>
                   <button>Comprar</button>
               </div>
-              <div class="card-tienda">
+              <div class="card-tienda remeras">
                   <img src="img/articulos/jeans/article8.jpeg" alt="articulo jean" class="img-fluid img__tienda">
-                  <h3>Precio $550 <span class="badge bg-secondary">-10% OFF</span></h3>
+                  <h3>Precio $550 <span class="badge bg-secondary">-30% OFF</span></h3>
                   <p>Remera Gran estilo.</p>
                   <button>Comprar</button>
               </div>
-              <div class="card-tienda">
+              <div class="card-tienda jeans">
                   <img src="img/articulos/jeans/article9.jpeg" alt="articulo jean" class="img-fluid img__tienda">
-                  <h3>Precio $550 <span class="badge bg-secondary">-10% OFF</span></h3>
+                  <h3>Precio $550  <span class="badge bg-secondary">-15% OFF</span></h3>
                   <p>Remera Gran estilo.</p>
                   <button>Comprar</button>
               </div>
-            </div>
-            <div class="buzos 50%">
-              <div class="card-tienda">
+              <div class="card-tienda buzos">
                 <img src="img/articulos/buzos/article100.jpg" alt="articulo buzo" class="img-fluid img__tienda">
-                <h3>Precio $550 <span class="badge bg-secondary">-50% OFF</span></h3>
+                <h3>Precio $750  <span class="badge bg-secondary">-50% OFF</span></h3>
                 <p>Remera Gran estilo.</p>
                 <button>Comprar</button>
               </div>
-              <div class="card-tienda">
+              <div class="card-tienda remeras">
                 <img src="img/articulos/buzos/article200.jpg" alt="articulo buzo" class="img-fluid img__tienda">
-                <h3>Precio $550 <span class="badge bg-secondary">-50% OFF</span></h3>
+                <h3>Precio $710  <span class="badge bg-secondary">-30% OFF</span></h3>
                 <p>Remera Gran estilo.</p>
                 <button>Comprar</button>
               </div>
-              <div class="card-tienda">
+              <div class="card-tienda camperas">
                 <img src="img/articulos/buzos/article300.jpg" alt="articulo buzo" class="img-fluid img__tienda">
-                  <h3>Precio $550 <span class="badge bg-secondary">-50% OFF</span></h3>
+                  <h3>Precio $550  <span class="badge bg-secondary">-15% OFF</span></h3>
                   <p>Remera Gran estilo.</p>
                   <button>Comprar</button>
               </div>
-              <div class="card-tienda">
+              <div class="card-tienda buzos">
                   <img src="img/articulos/buzos/article400.jpg" alt="articulo buzo" class="img-fluid img__tienda">
-                  <h3>Precio $550 <span class="badge bg-secondary">-50% OFF</span></h3>
+                  <h3>Precio $850 <span class="badge bg-secondary">-50% OFF</span></h3>
                   <p>Remera Gran estilo.</p>
                   <button>Comprar</button>
               </div>
-              <div class="card-tienda">
+              <div class="card-tienda jeans">
                   <img src="img/articulos/buzos/article500.jpg" alt="articulo buzo" class="img-fluid img__tienda">
-                  <h3>Precio $550 <span class="badge bg-secondary">-50% OFF</span></h3>
+                  <h3>Precio $830 <span class="badge bg-secondary">-15% OFF</span></h3>
                   <p>Remera Gran estilo.</p>
                   <button>Comprar</button>
               </div>
-              <div class="card-tienda">
+              <div class="card-tienda  buzos">
                   <img src="img/articulos/buzos/article600.jpg" alt="articulo buzo" class="img-fluid img__tienda">
-                  <h3>Precio $550 <span class="badge bg-secondary">-50% OFF</span></h3>
+                  <h3>Precio $790 <span class="badge bg-secondary">-50% OFF</span></h3>
                   <p>Remera Gran estilo.</p>
                   <button>Comprar</button>
               </div>
-              <div class="card-tienda">
+              <div class="card-tienda camperas">
                   <img src="img/articulos/buzos/article700.jpg" alt="articulo buzo" class="img-fluid img__tienda">
-                  <h3>Precio $550 <span class="badge bg-secondary">-50% OFF</span></h3>
+                  <h3>Precio $650  <span class="badge bg-secondary">-15% OFF</span></h3>
                   <p>Remera Gran estilo.</p>
                   <button>Comprar</button>
               </div>
-            </div>
-            <div class="camperas 15%">
-              <div class="card-tienda">
+              <div class="card-tienda buzos">
                 <img src="img/articulos/camperas/article1.jpg" alt="articulo campera" class="img-fluid img__tienda">
-                <h3>Precio $550 <span class="badge bg-secondary">-15% OFF</span></h3>
+                <h3>Precio $200 <span class="badge bg-secondary">-50% OFF</span></h3>
                 <p>Remera Gran estilo.</p>
                 <button>Comprar</button>
               </div>
-              <div class="card-tienda">
+              <div class="card-tienda remeras">
                 <img src="img/articulos/camperas/article2.jpeg" alt="articulo campera" class="img-fluid img__tienda">
-                <h3>Precio $550 <span class="badge bg-secondary">-15% OFF</span></h3>
+                <h3>Precio $350 <span class="badge bg-secondary">-30% OFF</span></h3>
                 <p>Remera Gran estilo.</p>
                 <button>Comprar</button>
               </div>
-              <div class="card-tienda">
+              <div class="card-tienda jeans">
                 <img src="img/articulos/camperas/article3.jpeg" alt="articulo campera" class="img-fluid img__tienda">
-                  <h3>Precio $550 <span class="badge bg-secondary">-15% OFF</span></h3>
+                  <h3>Precio $200  <span class="badge bg-secondary">-10% OFF</span></h3>
                   <p>Remera Gran estilo.</p>
                   <button>Comprar</button>
               </div>
             </div>
           </div>
     </section>
-    <section><!--Boton whatsapp flotante-->
+    <section class="tienda__hero"><!--Boton whatsapp flotante-->
       <div class="btn__whatsapp">
         <i class="fab fa-whatsapp icon__whatsapp"></i>
       </div>

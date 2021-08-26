@@ -21,7 +21,7 @@
     <header><!--Aqui esta el Navbar-->
         <nav class="navbar sticky-top navbar-expand-lg navbar-light">
           <div class="container px-3">
-            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo" class="img-fluid img__logo"></a>
+            <a class="navbar-brand" href="index.html"><img src="img/logo2.png" alt="logo" class="img-fluid img__logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -31,7 +31,7 @@
                   <a class="nav-link active" aria-current="page" href="index.html"><i class="fas fa-home"></i> Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="tienda.html">Tienda</a>
+                  <a class="nav-link" href="tienda.html" style="text-decoration:underline !important;">Tienda</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="locales.html">Locales</a>
@@ -47,8 +47,9 @@
           </div>
         </nav>
     </header>
-    <section class="tienda__hero" ><!--Aqui esta el Filtro y los Productos-->
+    <section class="section__shop"><!--Aqui esta el Filtro y los Productos-->
       <div class="container__flitro">
+        <h1>Bienvenida a Nuestra Tienda</h1>
         <input type="radio" id="todo" name="filtro" checked>
         <label for="Todo">Todo</label>
         <input type="radio" id="jeans" name="filtro" >
@@ -59,153 +60,146 @@
         <label for="buzos">Buzos</label>
         <input type="radio" id="camperas" name="filtro" >
         <label for="camperas">Camperas</label>
-        <div class="container__articulos" id="cards">
-          <div class="remeras pt-5">
-            <div class="card-tienda">
-              <img src="img/articulos/remeras/article1.jpeg" alt="remera" class="img-fluid img__tienda">
-              <h3>Precio $550</h3>
-              <p>Remera Gran estilo.</p>
-              <button>Comprar</button>
-            </div>
-            <div class="card-tienda">
-              <img src="img/articulos/remeras/article2.jpeg" alt="remera" class="img-fluid img__tienda">
-              <h3>Precio $550</h3>
-              <p>Remera Gran estilo.</p>
-              <button>Comprar</button>
-            </div>
-            <div class="card-tienda">
-              <img src="img/articulos/remeras/article3.jpeg" alt="remera" class="img-fluid img__tienda">
-              <h3>Precio $550</h3>
-              <p>Remera Gran estilo.</p>
-              <button>Comprar</button>
-            </div>
-            <div class="card-tienda">
-              <img src="img/articulos/remeras/article4.jpeg" alt="remera" class="img-fluid img__tienda">
-              <h3>Precio $550</h3>
-              <p>Remera Gran estilo.</p>
-              <button>Comprar</button>
-            </div>
-            <div class="card-tienda">
-              <img src="img/articulos/remeras/article5.jpg" alt="remera" class="img-fluid img__tienda">
-              <h3>Precio $550</h3>
-              <p>Remera Gran estilo.</p>
-              <button>Comprar</button>
-            </div>
+        <div class="container__articulos p-5" id="card">
+          <div class="card-tienda remeras">
+            <img src="img/articulos/remeras/article1.jpeg" alt="remera" class="img-fluid img__tienda">
+            <h3>Precio $550</h3>
+            <p>Remera Gran estilo.</p>
+            <button>Comprar</button>
           </div>
-        <div class="jean">
-        <div class="card-tienda">
-          <img src="img/articulos/jeans/article1.jpeg" alt="articulo jean" class="img-fluid img__tienda">
-          <h3>Precio $550</h3>
-          <p>Remera Gran estilo.</p>
-          <button>Comprar</button>
-        </div>
-        <div class="card-tienda">
-          <img src="img/articulos/jeans/article2.jpeg" alt="articulo jean" class="img-fluid img__tienda">
-          <h3>Precio $1280</h3>
-          <p>Remera Gran estilo.</p>
-          <button>Comprar</button>
-        </div>
-        <div class="card-tienda">
-          <img src="img/articulos/jeans/article3.jpeg" alt="articulo jean" class="img-fluid img__tienda">
-            <h3>Precio $1510</h3>
+          <div class="card-tienda remeras">
+            <img src="img/articulos/remeras/article2.jpeg" alt="remera" class="img-fluid img__tienda">
+            <h3>Precio $550</h3>
             <p>Remera Gran estilo.</p>
             <button>Comprar</button>
-        </div>
-        <div class="card-tienda">
-            <img src="img/articulos/jeans/article4.jpeg" alt="articulo jean" class="img-fluid img__tienda">
-            <h3>Precio $1580</h3>
+          </div>
+          <div class="card-tienda remeras">
+            <img src="img/articulos/remeras/article3.jpeg" alt="remera" class="img-fluid img__tienda">
+            <h3>Precio $550</h3>
             <p>Remera Gran estilo.</p>
             <button>Comprar</button>
-        </div>
-        <div class="card-tienda">
-            <img src="img/articulos/jeans/article5.jpeg" alt="articulo jean" class="img-fluid img__tienda">
-            <h3>Precio $1490</h3>
+          </div>
+          <div class="card-tienda remeras">
+            <img src="img/articulos/remeras/article4.jpeg" alt="remera" class="img-fluid img__tienda">
+            <h3>Precio $550</h3>
             <p>Remera Gran estilo.</p>
             <button>Comprar</button>
-        </div>
-        <div class="card-tienda">
-            <img src="img/articulos/jeans/article6.jpeg" alt="articulo jean" class="img-fluid img__tienda">
-            <h3>Precio $1410</h3>
+          </div>
+          <div class="card-tienda remeras">
+            <img src="img/articulos/remeras/article5.jpg" alt="remera" class="img-fluid img__tienda">
+            <h3>Precio $550</h3>
             <p>Remera Gran estilo.</p>
             <button>Comprar</button>
-        </div>
-        <div class="card-tienda">
-            <img src="img/articulos/jeans/article7.jpeg" alt="articulo jean" class="img-fluid img__tienda">
-            <h3>Precio $1460</h3>
+          </div>
+          <div class="card-tienda jeans">
+            <img src="img/articulos/jeans/article1.jpeg" alt="articulo jean" class="img-fluid img__tienda">
+            <h3>Precio $550</h3>
             <p>Remera Gran estilo.</p>
             <button>Comprar</button>
-        </div>
-        <div class="card-tienda">
-            <img src="img/articulos/jeans/article8.jpeg" alt="articulo jean" class="img-fluid img__tienda">
-            <h3>Precio $1550</h3>
+          </div>
+          <div class="card-tienda jeans">
+            <img src="img/articulos/jeans/article2.jpeg" alt="articulo jean" class="img-fluid img__tienda">
+            <h3>Precio $1280</h3>
             <p>Remera Gran estilo.</p>
             <button>Comprar</button>
-        </div>
-        <div class="card-tienda">
-            <img src="img/articulos/jeans/article9.jpeg" alt="articulo jean" class="img-fluid img__tienda">
-            <h3>Precio $1550</h3>
-            <p>Remera Gran estilo.</p>
-            <button>Comprar</button>
-        </div>
-        </div>
-        <div class="buzos">
-          <div class="card-tienda">
+          </div>
+          <div class="card-tienda jeans">
+            <img src="img/articulos/jeans/article3.jpeg" alt="articulo jean" class="img-fluid img__tienda">
+              <h3>Precio $1510</h3>
+              <p>Remera Gran estilo.</p>
+              <button>Comprar</button>
+          </div>
+          <div class="card-tienda jeans">
+              <img src="img/articulos/jeans/article4.jpeg" alt="articulo jean" class="img-fluid img__tienda">
+              <h3>Precio $1580</h3>
+              <p>Remera Gran estilo.</p>
+              <button>Comprar</button>
+          </div>
+          <div class="card-tienda jeans">
+              <img src="img/articulos/jeans/article5.jpeg" alt="articulo jean" class="img-fluid img__tienda">
+              <h3>Precio $1490</h3>
+              <p>Remera Gran estilo.</p>
+              <button>Comprar</button>
+          </div>
+          <div class="card-tienda jeans">
+              <img src="img/articulos/jeans/article6.jpeg" alt="articulo jean" class="img-fluid img__tienda">
+              <h3>Precio $1410</h3>
+              <p>Remera Gran estilo.</p>
+              <button>Comprar</button>
+          </div>
+          <div class="card-tienda jeans">
+              <img src="img/articulos/jeans/article7.jpeg" alt="articulo jean" class="img-fluid img__tienda">
+              <h3>Precio $1460</h3>
+              <p>Remera Gran estilo.</p>
+              <button>Comprar</button>
+          </div>
+          <div class="card-tienda jeans">
+              <img src="img/articulos/jeans/article8.jpeg" alt="articulo jean" class="img-fluid img__tienda">
+              <h3>Precio $1550</h3>
+              <p>Remera Gran estilo.</p>
+              <button>Comprar</button>
+          </div>
+          <div class="card-tienda jeans">
+              <img src="img/articulos/jeans/article9.jpeg" alt="articulo jean" class="img-fluid img__tienda">
+              <h3>Precio $1550</h3>
+              <p>Remera Gran estilo.</p>
+              <button>Comprar</button>
+          </div>
+          <div class="card-tienda buzos">
             <img src="img/articulos/buzos/article100.jpg" alt="articulo buzo" class="img-fluid img__tienda">
             <h3>Precio $750</h3>
             <p>Remera Gran estilo.</p>
             <button>Comprar</button>
           </div>
-          <div class="card-tienda">
+          <div class="card-tienda buzos">
             <img src="img/articulos/buzos/article200.jpg" alt="articulo buzo" class="img-fluid img__tienda">
             <h3>Precio $710</h3>
             <p>Remera Gran estilo.</p>
             <button>Comprar</button>
           </div>
-          <div class="card-tienda">
+          <div class="card-tienda buzos">
             <img src="img/articulos/buzos/article300.jpg" alt="articulo buzo" class="img-fluid img__tienda">
               <h3>Precio $550</h3>
               <p>Remera Gran estilo.</p>
               <button>Comprar</button>
           </div>
-          <div class="card-tienda">
+          <div class="card-tienda buzos">
               <img src="img/articulos/buzos/article400.jpg" alt="articulo buzo" class="img-fluid img__tienda">
               <h3>Precio $850</h3>
               <p>Remera Gran estilo.</p>
               <button>Comprar</button>
           </div>
-          <div class="card-tienda">
+          <div class="card-tienda buzos">
               <img src="img/articulos/buzos/article500.jpg" alt="articulo buzo" class="img-fluid img__tienda">
               <h3>Precio $830</h3>
               <p>Remera Gran estilo.</p>
               <button>Comprar</button>
           </div>
-          <div class="card-tienda">
+          <div class="card-tienda  buzos">
               <img src="img/articulos/buzos/article600.jpg" alt="articulo buzo" class="img-fluid img__tienda">
               <h3>Precio $790</h3>
               <p>Remera Gran estilo.</p>
               <button>Comprar</button>
           </div>
-          <div class="card-tienda">
+          <div class="card-tienda buzos">
               <img src="img/articulos/buzos/article700.jpg" alt="articulo buzo" class="img-fluid img__tienda">
               <h3>Precio $650</h3>
               <p>Remera Gran estilo.</p>
               <button>Comprar</button>
           </div>
-        </div>
-        <div class="camperas">
-          <div class="card-tienda">
+          <div class="card-tienda camperas">
             <img src="img/articulos/camperas/article1.jpg" alt="articulo campera" class="img-fluid img__tienda">
             <h3>Precio $2100</h3>
             <p>Remera Gran estilo.</p>
             <button>Comprar</button>
           </div>
-          <div class="card-tienda">
+          <div class="card-tienda camperas">
             <img src="img/articulos/camperas/article2.jpeg" alt="articulo campera" class="img-fluid img__tienda">
             <h3>Precio $2350</h3>
             <p>Remera Gran estilo.</p>
             <button>Comprar</button>
           </div>
-          <div class="card-tienda">
+          <div class="card-tienda camperas">
             <img src="img/articulos/camperas/article3.jpeg" alt="articulo campera" class="img-fluid img__tienda">
               <h3>Precio $2100</h3>
               <p>Remera Gran estilo.</p>
