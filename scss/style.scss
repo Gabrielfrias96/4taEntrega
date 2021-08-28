@@ -307,6 +307,24 @@ footer{
     border-radius: 25px;
 }
 
+.container__redesSociales{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-items:center;
+    font-size:10rem;
+    a{
+        color:$cool-morado !important;
+        text-decoration: none;
+    }
+}
+
+.container__form{
+    width:80%;
+    border-radius: 20px;;
+    color:$cool-blanco;
+    background-color:$cool-morado;
+}
 
 /*--------------------- Aqui estan las MediaQueries -----------*/
 
@@ -366,4 +384,15 @@ footer{
     h1{
         font-size:1.2rem;
     }
+}
+
+.container__form{
+    width:100%;
+}
+
+.container__redesSociales{
+    a{
+        font-size:5rem;
+    }
+    
 }

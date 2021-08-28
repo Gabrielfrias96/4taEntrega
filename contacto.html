@@ -47,37 +47,69 @@
         </nav>
     </header>
     <section><!--Aqui esta el formulario-->
-      <div class="container container__form d-flex justify-content-evenly align-items-center">
+      <div class="container-fluid">
         <div class="row d-flex justify-content-evenly align-items-center">
-            <div class="col-12 col-lg-6 text__contacto mt-3">
-                <h1>Dejanos <br> un mensaje <br> y nos pondremos en contacto <br> contigo!</h1>
+            <div class="col-12 container__encabezado">
+                <h1>¡Contactate con nustro equipo de Soporte!</h1>
             </div>
-            <div class="col-12 col-lg-6 box-form d-flex justify-content-evenly mt-5">
-                <form action="" method="post" class="form-contact">
-                    <p>Nombre y Apellido 
-                        <input type="name">
-                    </p> 
-                    <p>Edad:
-                        <input type="age">
-                    </p>
-                    <p>E-mail:
-                        <input type="email">
-                    </p>
-                    <p>Sexo:
-                    <select name="sex">
-                        <option value="man">Hombre</option>
-                        <option value="woman">Mujer</option>
-                    </select>
-                    </p>
-                    <p><input type="checkbox">Quiero recibir ofertas semanales</p>
-                    <p>Dejanos tu consulta</p>
-                    <textarea name="consulta" id="" cols="30" rows="10"></textarea><br>
-                    <input type="reset" name="Limpiar" id="">
-                    <input type="submit" name="Enviar" id="">
-                </form>
+            <div class="col-12 d-flex justify-content-evenly align-items-center m-5">
+                <div class="container__form">
+                    <form action="" class="m-5">
+                        <div class="container-fluid">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                  <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre"requiered>
+                                </div>
+                                <div class="col-md-6">
+                                  <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" requiere>
+                                </div>
+                                <div class="col-md-6">
+                                    <select id="inputState" class="form-select" placeholder="Genero">
+                                      <option selected>Genero</option>
+                                      <option >Hombre</option>
+                                      <option>Mujer</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control" placeholder="Edad" aria-label="Edad">
+                                  </div>
+                                <div class="col-sm-6">
+                                    <input type="email" class="form-control" placeholder="Correo" aria-label="Correo" require>
+                                  </div>
+                                  <div class="col-sm-6">
+                                    <input type="password" class="form-control" placeholder="ID Seguimiento" aria-label="ID Seguimiento">
+                                  </div>
+                                  <div class="col-12">
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" id="gridCheck" checked>
+                                      <label class="form-check-label" for="gridCheck">
+                                        Quiero recibir toda las ofertas semanales.
+                                      </label>
+                                    </div>
+                                  </div>
+                                  <div class="col-12">
+                                    <textarea class="form-control text-area" name="" id="" cols="30" rows="20"></textarea>
+                                  </div>
+                                  <div class="col-12">
+                                    <input type="reset">
+                                    <input type="submit">
+                                  </div>
+                
+                              </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-12 container__encabezado">
+                <h2 style="color: #FEFEFE">Podes Encontrarnos en Nuestras Redes Sociales</h2>
+            </div>
+            <div class="col-12 container__redesSociales m-5">
+                <a href=""><i class="fab fa-facebook-square"></i></a> 
+                <a href=""><i class="fab fa-instagram-square"></i></a>
+                <a href=""><i class="fab fa-whatsapp"></i></a>
             </div>
         </div>
-      </div>
+    </div>
     </section>
     <footer class="mt-5">
       <div class="container-fluid container__footer">

@@ -361,6 +361,22 @@ footer {
   background-color: #F2508B;
   border-radius: 25px; }
 
+.container__redesSociales {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 10rem; }
+  .container__redesSociales a {
+    color: #4637A6 !important;
+    text-decoration: none; }
+
+.container__form {
+  width: 80%;
+  border-radius: 20px;
+  color: #FEFEFE;
+  background-color: #4637A6; }
+
 /*--------------------- Aqui estan las MediaQueries -----------*/
 @media (max-width: 768px) {
   .container__encabezado h1 {
@@ -396,3 +412,9 @@ footer {
   width: 90%; }
   .text__contacto h1 {
     font-size: 1.2rem; }
+
+.container__form {
+  width: 100%; }
+
+.container__redesSociales a {
+  font-size: 5rem; }
