@@ -106,13 +106,10 @@ body {
   border-radius: 10px;
   border: solid 1px #857f7f;
   width: 250px;
-  height: 300px;
+  height: 180px;
   text-align: center;
-  padding-top: 50px; }
-  .text__ofert h2 {
-    color: #FEFEFE; }
-  .text__ofert h3 {
-    color: #FEFEFE; }
+  color: #FEFEFE;
+  font-size: 11rem; }
 
 .text__ofert:hover {
   background-color: #FE5E66; }

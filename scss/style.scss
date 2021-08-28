@@ -64,16 +64,10 @@ body{
     border-radius: 10px;
     border: solid 1px #857f7f;
     width:250px;
-    height:300px;
+    height:180px;
     text-align: center;
-    padding-top: 50px;
-     h2{
-         color: $cool-blanco;
-     }
-
-     h3{
-         color:$cool-blanco;
-     }
+    color:$cool-blanco;
+    font-size:11rem;
 }
 
 .text__ofert:hover{
