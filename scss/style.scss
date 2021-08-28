@@ -302,6 +302,12 @@ footer{
     background-color:$cool-morado;
 }
 
+.text-area{
+    box-sizing: border-box;
+    max-width: 100%;
+    min-height: 250px;
+}
+
 /*--------------------- Aqui estan las MediaQueries -----------*/
 
 @media (max-width: 768px){
@@ -334,6 +340,7 @@ footer{
     .container__info{
         width: 100%;
         height: 460px;
+        font-weight: 400;;
         .icon__info{
             font-size:2rem;
         }
@@ -347,6 +354,9 @@ footer{
     }
 
     .container__flitro{
+        h1{
+            font-size:1rem;
+        }
         label{
             padding:5px;
             font-size:0.7rem !important;
@@ -383,3 +393,4 @@ footer{
         font-weight: 400;;
     }
 }
+

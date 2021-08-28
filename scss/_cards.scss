@@ -46,7 +46,7 @@
         color:$cool-blanco;
         background-color:$cool-rosa;
         border-radius:50px;
-        border:none;
+        border:1px solid $cool-background;
     }
 }
 
@@ -55,8 +55,4 @@
     transform:scale(1.1); 
     background-color: $cool-rosa;
     color:$cool-blanco;
-     .button{
-        background-color:$cool-blanco;
-        color:$cool-morado;
-        }
 }
