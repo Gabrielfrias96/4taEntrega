@@ -108,9 +108,8 @@ body {
   background-color: #F2508B;
   border-radius: 10px;
   border: solid 1px #857f7f;
-  width: 200px;
+  width: 250px;
   height: 300px;
-  align-self: center;
   text-align: center;
   padding-top: 50px; }
   .text__ofert h2 {
@@ -338,29 +337,6 @@ footer {
       color: #4637A6; }
 
 /* --------------------Aqui comienza la page Contacto--------------------*/
-.container__form {
-  background-color: #F1F4F9; }
-
-.text__contacto {
-  background-color: #FEFEFE;
-  align-self: center;
-  text-align: center;
-  border: 5px solid #F2508B;
-  border-radius: 100px;
-  box-shadow: 0px 10px 10px -6px black; }
-  .text__contacto h1 {
-    font-size: 2rem;
-    color: #4637A6; }
-
-.form-contact {
-  color: #FEFEFE;
-  width: 400px;
-  height: 600px;
-  padding: 20px;
-  text-align: center;
-  background-color: #F2508B;
-  border-radius: 25px; }
-
 .container__redesSociales {
   display: flex;
   flex-wrap: wrap;
