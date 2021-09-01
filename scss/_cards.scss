@@ -1,18 +1,31 @@
-.card{
+.card__hero{
     cursor:pointer;
+    width: 250px;
     border-radius:10px;
     transition-duration: 0.4s;
+    margin:10px;
+    overflow: hidden;
     h3{
+        padding: 5px;
         font-size:1.2rem;
     }
     p{
+        padding: 10px;
+        font-weight: 400;
         font-size:.8rem;
     }
     
 }
 
-.card:hover{
+.card__hero:hover{
     transform:scale(1.1);
+    background-color:$cool-rosa;
+    h3{
+        color:$cool-blanco;
+    }
+    p{
+        color:$cool-blanco;
+    }
 }
 
 
