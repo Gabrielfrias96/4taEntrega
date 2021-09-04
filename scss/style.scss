@@ -6,7 +6,7 @@
 
 body{
     @include reset-pm;
-    font-family:muli, sans-serif;
+    font-family:$cool-font;
     font-weight: 800;
     background-color:$cool-background;
 }
